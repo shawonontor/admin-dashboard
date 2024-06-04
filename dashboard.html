@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="adminstyle.css">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- font-icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="left-side">
+            <img src="IMG_20190387_071404.JPG" alt="">
+            <h2 class="text-[30px] font-[500] text-[coral]">Shawon</h2>
+        </div>
+        <div class="search">
+            <span class="material-symbols-outlined">search</span>
+            <input  class="input-field" type="text" placeholder="search">
+        </div>
+        <div class="right-side">
+            <div class="drak">
+                <span id="dark-toggle" class="material-symbols-outlined light-mood">
+                    light_mode
+                    </span>
+                <span id="light-toggle" class="material-symbols-outlined bg-[black] text-[white]  dark-mood">
+                    dark_mode
+                    </span>
+            </div>
+
+            <div class="profile-area">
+                <img src="IMG_20190387_071404.JPG" alt="">
+                <h3>Ontor</h3>
+                <span class="material-symbols-outlined menubar">
+                    menu
+                    </span>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <aside class="sidebar shadow-lg">
+            <a href="" class="close">
+                <span class="material-symbols-outlined">
+                    cancel
+                    </span>
+            </a>
+            <ul class="link-list">
+                <li>
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            grid_view
+                            </span>
+                    <h2>Dashboard</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            person
+                            </span>
+                    <h2>Customers</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            grouped_bar_chart
+                            </span>
+                    <h2>Analytics</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            mail
+                            </span>
+                    <h2>Message</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            production_quantity_limits
+                            </span>
+                    <h2>Products</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="material-symbols-outlined">
+                            settings
+                            </span>
+                    <h2>Setting</h2>
+                    </a>
+                </li>
+                <div class="last">
+                    <a href="">
+                        <span class="material-symbols-outlined  ">
+                            logout
+                            </span>
+                    <h2 class="">Log out</h2>
+                    </a>
+                </div>
+            </ul>
+        </aside>
+        <!-- middle-part-start -->
+        <section class="middle-part">
+            <h2 class="ml-[20px] mt-[10px] text-[30px] font-[700]">Dashboard</h2>
+            <input  class="ml-[20px] mt-[20px] date shadow-sm" type="date">
+            <div class="cards">
+                <div class="card ml-[20px] mt-[10px] shadow-sm">
+                    <span class="material-symbols-outlined analytic">
+                        grouped_bar_chart
+                        </span>
+                    <h2 class="font-[700] mt-[12px]">Total sales</h2>
+                    <div class="mid-part">
+                        <h1 class="font-[900] text-[25px]">$2500</h1>
+                        <div class="circle">
+                            <div class="circle-2">
+
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-[12px] font-[400]">Last 24 hours</h3>
+                </div>
+                <div class="card ml-[20px] mt-[10px] shadow-sm">
+                    <span class="material-symbols-outlined analytic">
+                        grouped_bar_chart
+                        </span>
+                    <h2 class="font-[700] mt-[12px]">Total sales</h2>
+                    <div class="mid-part">
+                        <h1 class="font-[900] text-[25px]">$2500</h1>
+                        <div class="circle">
+                            <div class="circle-2">
+
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-[12px] font-[400]">Last 24 hours</h3>
+                </div>
+                <div class="card ml-[20px] mt-[10px] shadow-sm">
+                    <span class="material-symbols-outlined analytic">
+                        grouped_bar_chart
+                        </span>
+                    <h2 class="font-[700] mt-[12px]">Total sales</h2>
+                    <div class="mid-part">
+                        <h1 class="font-[900] text-[25px]">$2500</h1>
+                        <div class="circle">
+                            <div class="circle-2">
+
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-[12px] font-[400]">Last 24 hours</h3>
+                </div>
+            </div>
+            <h1 class="mt-[20px] ml-[20px] text-[25px] font-[700]">Recent Orders</h1>
+            <div class="table-update">
+                <table class="ml-[150px]">
+                
+                    <th>
+                        Product Name
+                    </th>
+                    <th>
+                        Product Number
+                    </th>
+                    <th>
+                        Payment 
+                    </th>
+                    <th>
+                        status
+                    </th>
+                    <tr>
+                        <td>Mini usb</td>
+                        <td>3456</td>
+                        <td>due</td>
+                        <td class="pending">pending</td>
+                        <td class="details">details</td>
+                    </tr>
+                    <tr>
+                        <td>Mini usb</td>
+                        <td>3456</td>
+                        <td>due</td>
+                        <td class="pending">pending</td>
+                        <td class="details">details</td>
+                    </tr>
+                    <tr>
+                        <td>Mini usb</td>
+                        <td>3456</td>
+                        <td>due</td>
+                        <td class="pending">pending</td>
+                        <td class="details">details</td>
+                    </tr>
+                    <tr>
+                        <td>Mini usb</td>
+                        <td>3456</td>
+                        <td>due</td>
+                        <td class="pending ">pending</td>
+                        <td class="details">details</td>
+                    </tr>
+            </table>
+            </div>
+        </section>
+
+        <!-- middle-part-end -->
+        <!-- right-part -->
+        <section class="right-part">
+             <h1 class="text-[20px] font-[700] mt-[20px]">Recent Updates</h1>
+            <div class="updates-box shadow-sm">
+                <div class="up-1">
+                    <img class="analytic" src="IMG_20190387_071404.JPG" alt="">
+                    <h1>Shawon receive his order</h1>
+                </div>
+                <div class="up-1">
+                    <img class="analytic" src="IMG_20190387_071404.JPG" alt="">
+                    <h1 class="text-[10px]">Shawon receive his order</h1>
+                </div>
+                <div class="up-1">
+                    <img class="analytic" src="IMG_20190387_071404.JPG" alt="">
+                    <h1>Shawon receive his order</h1>
+                </div>
+
+            </div>
+            <h2 class="text-[25px] mt-[20px] font-[700] mb-[15px]">Sales Analytics</h2>
+            <div class="online-order">
+                <div class="order-card">
+                   <div class="shop-cart">
+                    <span class="material-symbols-outlined text-[20px] ">
+                        shopping_cart
+                        </span>
+                   </div>
+                    <div class="text">
+                        <h1 class="text-[15px] font-[700]">Online Orders</h1>
+                        <p class="text-[10px]">Last seen 2 hours</p>
+                        <h2 class="text-[12px] text-red-500">-17%</h2>
+                        <h3 class="font-[700]">3587</h3>
+                    </div>
+                </div>
+                <div class="order-card">
+                   <div class="shop-cart">
+                    <span class="material-symbols-outlined text-[20px] ">
+                        shopping_cart
+                        </span>
+                   </div>
+                    <div class="text">
+                        <h1 class="text-[15px] font-[700]">Online Orders</h1>
+                        <p class="text-[10px]">Last seen 2 hours</p>
+                        <h2 class="text-[12px] text-red-500">-17%</h2>
+                        <h3 class="font-[700]">3587</h3>
+                    </div>
+                </div>
+                <div class="order-card">
+                   <div class="shop-cart">
+                    <span class="material-symbols-outlined text-[20px] ">
+                        shopping_cart
+                        </span>
+                   </div>
+                    <div class="text">
+                        <h1 class="text-[15px] font-[700]">Online Orders</h1>
+                        <p class="text-[10px]">Last seen 2 hours</p>
+                        <h2 class="text-[12px] text-red-500">-17%</h2>
+                        <h3 class="font-[700]">3587</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="admin.js"></script>
+</body>
+</html>
